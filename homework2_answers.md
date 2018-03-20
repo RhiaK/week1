@@ -32,7 +32,11 @@ What command do you use to use a different branch?
 Why would you want to use a branch other than the default master?
 	So that you may make changes without it affecting the main code, or others might.
 
-	
+Give an example for when you would use git merge and give an example for when it would be better to submit a pull request to have your branch merged
+	A merge would be used when working on something, possibly with others, and you want to combine multiple parts of code that you control. A pull request would be in a situation where you do not control the main code but have code to add to it.
+
+What command do you use to send all of the work that you've done locally to your remote repository?
+	git push origin master
 
 
 
