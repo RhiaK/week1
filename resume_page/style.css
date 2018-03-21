@@ -1,4 +1,4 @@
-h1 {
+header {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 }
@@ -9,21 +9,23 @@ h3 {
 }
 
 body {
-	text-align: center;
 	margin: auto;
 	padding: 50px;
 }
 
-ul {
-	list-style: none;
-	display: block;
+img {
 	text-align: center;
 }
 
-li {
+#contact {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: rgb(237, 172, 247);
+}
+
+/*li {
 	display: block;
-	padding: 0 30px 0 0;
-}
-a {
-	padding: 0 10px 0 10px;
-}
+	width: 60px;
+}*/
