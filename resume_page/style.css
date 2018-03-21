@@ -21,11 +21,16 @@ img {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 200px;
+	width: 120px;
 	background-color: rgb(237, 172, 247);
 }
+ li a {
+ 	padding: 10px;
+ 	margin-left: 12px;
+ 	display: block;
+ }
 
-/*li {
-	display: block;
-	width: 60px;
-}*/
+li a:hover {
+	background-color: rgb(114, 27, 135);
+	color: white;
+}
