@@ -29,7 +29,7 @@ for (i = 1; i <= 100; i ++) {
 	} else {
 		console.log(i);
 }
-}*/
+}
 //5.
 const thom = ["Thom", 1000, "Christchurch"]
 const karolin = ["Karolin", 16, "New York"]
@@ -42,7 +42,33 @@ karolin[1] = 17;
 
 matt[2] = "Gotham City";
 
-kristyn[2] = "Brooklyn";
+kristyn[2] = "Brooklyn"; */
+//6.
+const nTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for (i = 0; i < nTurtles.length; i ++) {
+	nTurtles[0] = nTurtles[0].toUpperCase();
+	nTurtles[1] = nTurtles[1].toUpperCase();
+	nTurtles[2] = nTurtles[2].toUpperCase();
+	nTurtles[3] = nTurtles[3].toUpperCase();
+	console.log(nTurtles[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
